@@ -6,6 +6,11 @@ public class Telefonista extends Funcionario{
         this.codigo = codigo;
     }
 
+    public void mostraDados(){
+        super.mostraDados();
+        System.out.println(codigo);
+    }
+
     public int getCodigo() {
         return codigo;
     }

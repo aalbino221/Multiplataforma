@@ -7,6 +7,11 @@ public class Funcionario {
         this.salario = salario;
     }
 
+    public void mostraDados(){
+        System.out.println(this.nome);
+        System.out.println(this.salario);
+    }
+
     public String getNome() {
         return nome;
     }

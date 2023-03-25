@@ -5,6 +5,9 @@ public class Main {
         Secretaria s1 = new Secretaria("Gabriela",2000,1234567);
         System.out.println("Bonificação gerente - " + g1.calculaBonificao());
         System.out.println("Bonificação telefonista - " + t1.calculaBonificao());
-        System.out.println("Bonificação SecretariaS - " + s1.calculaBonificao());
+        System.out.println("Bonificação Secretaria - " + s1.calculaBonificao());
+        g1.mostraDados();
+        t1.mostraDados();
+        s1.mostraDados();
     }
 }

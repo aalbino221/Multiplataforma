@@ -7,6 +7,11 @@ public class Gerente extends Funcionario{
         this.senha = senha;
     }
 
+    public void mostraDados(){
+        super.mostraDados();
+        System.out.println(nomeUsuario);
+        System.out.println(senha);
+    }
     public double calculaBonificao() {
         return this.getSalario()*1.25;
     }

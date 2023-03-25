@@ -6,6 +6,11 @@ public class Secretaria extends Funcionario{
         this.numeroRamal = numeroRamal;
     }
 
+    public void mostraDados(){
+        super.mostraDados();
+        System.out.println(numeroRamal);
+    }
+
     public int getNumeroRamal() {
         return numeroRamal;
     }
